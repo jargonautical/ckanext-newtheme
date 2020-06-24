@@ -9259,7 +9259,7 @@ h4 small {
 }
 @media (min-width: 768px) {
   .hero {
-    background: url("../../../base/images/postit.png");
+    background: url("images/postit.png");
   }
 }
 .hero:after {
