@@ -6867,7 +6867,7 @@ a.tag:hover {
   list-style: none;
   min-height: 205px;
   padding-top: 15px;
-  background: #fbfbfb url("../../../base/images/bg.png");
+  background: #fbfbfb url("images/postit.png");
   border: 1px solid #dddddd;
   border-width: 1px 0;
 }
@@ -9259,11 +9259,7 @@ h4 small {
 }
 @media (min-width: 768px) {
   .hero {
-<<<<<<< HEAD:ckanext/newtheme/public/tdpckan.css
-    background: url("images/postit.png");
-=======
     background: url("../../../images/postit.png");
->>>>>>> 593641aef63ebacf13835e641b818d711a79633e:ckanext/newtheme/public/new_theme.css
   }
 }
 .hero:after {
@@ -10495,7 +10491,7 @@ h4 small {
   z-index: 0;
 }
 body {
-  background: var(--dark) url("../../../base/images/bg.png");
+  background: var(--dark) url("images/postit.png");
 }
 [hidden] {
   display: none;
