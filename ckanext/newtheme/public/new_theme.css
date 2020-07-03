@@ -3,7 +3,6 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Chivo|Lora|Space+Mono:700&display=swap');
-
 :root {
   /* chart colours */
   --main: mediumaquamarine;
@@ -22,15 +21,18 @@
   --night: #202020;
   --warm: ivory;
 }
+
+/* FONTS AND HEADERS */
+
 body {
   font-family: Chivo;
 }
 
-/* FONTS AND HEADERS */
-
 h1,.h1,h2,.h2,h3,.h3 {
   font-family: Lora;
 }
+
+/* HERO IMAGE */
 
 @media (min-width: 768px) {
   .hero {
@@ -38,4 +40,19 @@ h1,.h1,h2,.h2,h3,.h3 {
   }
 }
 
+account-masthead, site-footer {
+  background-color: var(--dark);
+}
+
+nav navbar-static-top masthead {
+  background-color: var(--main);
+}
+
+.homepage .module-search .module content {
+  background-color: var(--tdp-blue);
+}
+
+.tags {
+  background-color: var(--tdp-teal);
+}
 /* ------------------------------------------- */
