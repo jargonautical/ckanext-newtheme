@@ -40,19 +40,43 @@ h1,.h1,h2,.h2,h3,.h3 {
   }
 }
 
-account-masthead, site-footer {
+@media (min-width: 768px) {
+  [role=main], 
+  .main {
+    background: url("../../../images/postit.png");
+  }
+}
+
+.account-masthead {
+  background-color: var(--night);
+}
+
+.site-footer {
+  background-color: var(--night);
+}
+
+.masthead {
   background-color: var(--dark);
 }
 
-nav navbar-static-top masthead {
-  background-color: var(--main);
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a {
+  background-color: var(--night);
 }
 
-.homepage .module-search .module content {
-  background-color: var(--tdp-blue);
+.module-content {
+  background-color: var(--dark);
 }
 
+.homepage
+.module-shallow
+.module-content {
+  background-color: var(--dark);
+}
+.homepage
+.module-search
 .tags {
-  background-color: var(--tdp-teal);
+  background-color: var(--tdp-dark);
 }
 /* ------------------------------------------- */
