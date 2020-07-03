@@ -66,17 +66,17 @@ h1,.h1,h2,.h2,h3,.h3 {
 }
 
 .module-content {
-  background-color: var(--dark);
+  background-color: var(--dull);
 }
 
 .homepage
 .module-shallow
 .module-content {
-  background-color: var(--dark);
+  background-color: var(--dull);
 }
 .homepage
 .module-search
 .tags {
-  background-color: var(--tdp-dark);
+  background-color: var(--dull);
 }
 /* ------------------------------------------- */
